@@ -5,6 +5,13 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_ram</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/84f01157-d4b6-47f8-86e8-1be6f6603fcd/resourceGroups/DefaultResourceGroup-CID/providers/microsoft.insights/components/myWebApp</ApplicationInsightsResourceId>
+    <UserSecretsId>3d053444-da37-41be-8830-ecbbec60492b</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.13.2" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.23.0" />
+  </ItemGroup>
 
 </Project>
